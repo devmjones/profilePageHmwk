@@ -1,0 +1,32 @@
+.teal {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+#footer {
+    background-color: #666666;
+}
+
+h {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#mainBodyArea {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 650px;
+
+}
+
+#sidebar {
+    width: 270px;
+}
