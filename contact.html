@@ -3,17 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Devon</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 <body>
-    <div>
-        <form>
-            <h1>Contact</h1>
-            <input type="text" name="name">
-            <input type="email" name="email">
-            <input type="text" name="message">
-            <input type="submit" value="Submit">
-        </form>
-        <!-- Contact Form-->
+<div class="header">
+    <div class="headerContent">
+        <div class="teal heading">
+            <h1>Devon Jones</h1>
+        </div>
+        <div class="linkArea">
+            <a href="base.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
+</div>
+
+<div class="mainBodyArea">
+    <div class="mainBodyContent">
+        <div class="contentSection pageContent contactForm">
+            <h1 class="title">Contact</h1>
+            <form>
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name"/>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email"/>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="8" placeholder="What do you want to say?"></textarea>
+                </div>
+                <input type="submit" class="teal submitButton" value="Submit"/>
+            </form>
+        </div>
+
+        <div class="contentSection contact">
+            <h3 class="title">Connect With Me</h3>
+            <a href="https://github.com/devmjones">
+                <img src="assets/images/github.png" alt="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/devmjones/">
+                <img src="assets/images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://stackexchange.com/users/7854494/devon-jones">
+                <img src="assets/images/stackoverflow.png" alt="Stack Overflow">
+            </a>
+        </div>
+
+        <div class="clearfix"/>
+
+    </div>
+</div>
+
+<div class="footer">
+    <span>Copyright &copy; 2017 Devon Jones</span>
+</div>
 </body>
 </html>

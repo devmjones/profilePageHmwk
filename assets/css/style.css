@@ -1,32 +1,212 @@
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding-bottom: 1ex;
+    margin-bottom: 16px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
 .teal {
-    color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+}
+
+.headerContent {
+    width: 960px;
+    margin: auto;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 64px;
+}
+
+.heading {
+    padding: 0 32px;
+    color: white;
+    display: inline-block;
+}
+
+.heading h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 64px;
+}
+
+.linkArea {
+    line-height: 64px;
+    float: right;
+}
+
+.linkArea a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+    border-left: 1px solid #dddddd;
+    padding: 0 12px;
+}
+
+.linkArea a:last-child {
+    padding-right: 0;
+}
+
+.linkArea a:first-child {
+    border: 0;
+    padding-left: 0;
 }
 
 p {
-    color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#header {
-    background-color: #ffffff;
-    border-color: #cccccc;
+.contentSection {
+    border: 1px solid #dddddd;
+    padding: 16px;
+    margin: 32px 0;
 }
 
-#footer {
+.contentSection > .title {
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+}
+
+.pageContent {
+    width: 618px;
+    float: left;
+}
+
+.about {
+    color: #777777;
+    line-height: 150%;
+}
+
+.portfolio .project {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.project {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfolio a:nth-child(even) .project {
+    margin-right: 20px;
+}
+
+.project .picture {
+    height: 223px;
+    overflow-y: hidden;
+}
+
+.project .caption {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    top: 160px;
+}
+
+.project img {
+    width: 297px;
+    min-height: 223px;
+}
+
+.about .portrait {
+    float: left;
+    width: 192px;
+    margin: 0 16px 16px 0;
+}
+
+.about p {
+    margin-bottom: 1ex;
+}
+
+.contactForm {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contactForm .field {
+    margin: 16px 0;
+}
+
+.contactForm .field label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.contactForm .field input, .contactForm .field textarea {
+    width: 602px;
+    padding: 4px;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.contactForm .submitButton {
+    color: white;
+    font-size: 16px;
+    border: 0;
+    padding: 16px 32px;
+}
+
+.contact {
+    width: 238px;
+    float: right;
+}
+
+.contact img {
+    width: 70px;
+    margin-right: 8px;
+}
+
+.contact a:last-child img {
+    margin-right: 0;
+}
+
+.clearfix {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    clear: both;
+}
+
+.footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #cccccc;
+    line-height: 80px;
+    font-size: 12px;
+    text-align: center;
 }
 
-h {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+.mainBodyArea {
+    background: #eeeeee url(../images/tree_bark.png);
+    border-top: 1px solid #666666;
 }
 
-#mainBodyArea {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    width: 650px;
-
+.mainBodyContent {
+    width: 960px;
+    margin: auto;
 }
 
-#sidebar {
-    width: 270px;
+.mainBodyContent > div {
+    background-color: white;
+    border: 1px solid #dddddd;
 }
